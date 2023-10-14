@@ -45,3 +45,15 @@
   }
 }
 
+#Color Change
+
+@keyframes color-change {
+  0% { background-color: #ff5733; }
+  50% { background-color: #33ff57; }
+  100% { background-color: #5733ff; }
+}
+
+.element {
+  animation: color-change 3s linear infinite;
+}
+
